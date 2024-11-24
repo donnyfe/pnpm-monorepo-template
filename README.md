@@ -1,4 +1,4 @@
-# pnpm-monorepo-tpl
+# donnyfe-tpl-monorepo-pnpm
 
 pnpm monorepo 项目启动模板
 
