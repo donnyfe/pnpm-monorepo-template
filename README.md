@@ -1,4 +1,4 @@
-# pnpm-monorepo
+# pnpm-monorepo-template
 
 pnpm monorepo 项目启动模板
 
