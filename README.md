@@ -96,7 +96,7 @@ pnpm changeset init
 
 `./changeset/config.json`配置：
 
-```json
+```js
 {
  "$schema": "<https://unpkg.com/@changesets/config@2.2.0/schema.json>",
  "changelog": "@changesets/cli/changelog", //更新日志生成函数的加载地址
