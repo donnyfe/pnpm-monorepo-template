@@ -1,4 +1,4 @@
-# donnyfe-tpl-monorepo-pnpm
+# pnpm-monorepo
 
 pnpm monorepo 项目启动模板
 
@@ -7,7 +7,7 @@ pnpm monorepo 项目启动模板
 ## 安装 pnpm
 
 ```sh
-npm install -g pnpm
+npm install pnpm -g
 ```
 
 ## 创建项目
@@ -98,15 +98,15 @@ pnpm changeset init
 
 ```json
 {
-	"$schema": "<https://unpkg.com/@changesets/config@2.2.0/schema.json>",
-	"changelog": "@changesets/cli/changelog", //更新日志生成函数的加载地址
-	"commit": true, //自动提交version的改动
-	"fixed": [], //捆绑发布的包
-	"linked": [], // 配置哪些包要共享版本
-	"access": "public", //公开，如果你想阻止一个包被发布到npm，在包的package.json中设置private: true （可选值：restricted，不公开）
-	"baseBranch": "main", //主分支名
-	"updateInternalDependencies": "patch", //是否主动更新package的依赖，patch、minor
-	"ignore": [] //指定不发布的包
+ "$schema": "<https://unpkg.com/@changesets/config@2.2.0/schema.json>",
+ "changelog": "@changesets/cli/changelog", //更新日志生成函数的加载地址
+ "commit": true, //自动提交version的改动
+ "fixed": [], //捆绑发布的包
+ "linked": [], // 配置哪些包要共享版本
+ "access": "public", //公开，如果你想阻止一个包被发布到npm，在包的package.json中设置private: true （可选值：restricted，不公开）
+ "baseBranch": "main", //主分支名
+ "updateInternalDependencies": "patch", //是否主动更新package的依赖，patch、minor
+ "ignore": [] //指定不发布的包
 }
 ```
 
